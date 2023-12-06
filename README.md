@@ -26,9 +26,32 @@ at various angles, orientations, backgrounds accounting for most of the variatio
 for images taken in the real world. The dataset was collected with the company of experienced
 pathologists.
 
-![Fig. 1](path/to/folder/image.jpg)
-
-Example of leaf images from our dataset, representing every class. 1) Helminthosporium
+![Example of leaf images from our dataset, representing every class. 1) Helminthosporium
 Leaf Spot 2) Red Rot 3) Cercospora Leaf Spot 4) Rust 5) Yellow Leaf Disease 6) Healthy.
+](path/to/folder/image.jpg)
 
 
+
+# Classification
+
+We trained a Resnet50 model in two ways, by training the entire model in one case,
+and only the fully connected part in another case. Transfer learning was used in both cases starting
+from pre-trained weights on the ImageNet dataset. Here also, we note that weights obtained from
+training the fully connected part only were used as the starting point for the training of the entire
+network. Optimizer used - Stochastic Gradient Descent with Restarts was used in all the cases
+
+![ Example image of a leaf from our test dataset suffering from Helminthosporium Leaf Spot](path/to/folder/image.jpg)
+
+# Results
+Achieved an acuuracy of 93.0 % on test test. All networks were trained on 80:20 Split.
+Networks ran for a total of 15 epochs when training only the fully connected layers and 25 epochs when training all the layers
+
+![Fig.2](path/to/folder/image.jpg)
+![Visualization of activations in the initial layer of Resnet-50 architecture depicting that the model has efficiently learnt to activate against diseased spots on the example leaf. ](path/to/folder/image.jpg)
+
+
+# How to Run
+
+To test the mode you can run the infer file by loading the saved model and testing on the sample data.
+
+`code run`
