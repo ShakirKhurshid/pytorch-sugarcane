@@ -48,10 +48,12 @@ Achieved an acuuracy of 93.0 % on test test. All networks were trained on 80:20 
 Networks ran for a total of 15 epochs when training only the fully connected layers and 25 epochs when training all the layers
 
 ![Fig.2](data/leaf.png)
+ 
  _Fig 2. Example image of a leaf from our test dataset suffering from Helminthosporium Leaf Spot_
 
  
 ![Visualization of activations in the initial layer of Resnet-50 architecture depicting that the model has efficiently learnt to activate against diseased spots on the example leaf. ](data/activations.png)
+
 _Fig 3.Visualization of activations in the initial layer of Resnet-50 architecture depicting that the model has efficiently learnt to activate against diseased spots on the example leaf._
 
 
