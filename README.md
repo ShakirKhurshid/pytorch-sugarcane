@@ -1,5 +1,5 @@
 # pytorch-sugarcane
-A deep learning approach to Identify crop disease
+A deep learning approach to Identify crop disease, (an image classification task).
 
 # Introduction
 Crop diseases recognition is one of the considerable concerns faced by the agricultural industry.
@@ -25,5 +25,10 @@ Bangalore and nearby farms belonging to farmers. All the images were taken using
 at various angles, orientations, backgrounds accounting for most of the variations that can appear
 for images taken in the real world. The dataset was collected with the company of experienced
 pathologists.
+
+![Fig. 1](path/to/folder/image.jpg)
+
+Example of leaf images from our dataset, representing every class. 1) Helminthosporium
+Leaf Spot 2) Red Rot 3) Cercospora Leaf Spot 4) Rust 5) Yellow Leaf Disease 6) Healthy.
 
 
