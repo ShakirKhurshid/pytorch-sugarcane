@@ -42,7 +42,7 @@ def load_model(checkpoint_path):
     return model
 
 
-model = load_model('Check.pth')
+model = load_model('model.pth')
 model.to(device)
 
 
@@ -141,8 +141,8 @@ def show_image(image):
 
 
 
-# Process Image
-image = process_image("Data/test/test/6.jpg")
+# Process Image, path to the image
+image = process_image("data/test_images/1.jpg")
 
 # Give image to model to predict output
 top_prob, top_class = predict(image, model)
