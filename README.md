@@ -14,3 +14,16 @@ of 93.20% (on the test set) and 76.40% on images collected from different truste
 demonstrating the robustness of this approach in identifying complex patterns and variations found
 in realistic scenarios. Taking everything into account, the approach of using CNNs on a
 considerably diverse dataset would pave the way for automated disease recognition systems.
+
+# Dataset
+
+The dataset contains 2940 images of sugarcane leaves belonging to 6 different classes
+(consisting of 5 diseases and 1 healthy). These include major diseases that affect the crop in India.
+All the images were taken in a natural environment with numerous variations. The images were
+taken at various cultivation fields including the University of Agricultural Sciences, Mandya
+Bangalore and nearby farms belonging to farmers. All the images were taken using phone cameras
+at various angles, orientations, backgrounds accounting for most of the variations that can appear
+for images taken in the real world. The dataset was collected with the company of experienced
+pathologists.
+
+
