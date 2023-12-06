@@ -29,6 +29,8 @@ pathologists.
 ![Example of leaf images from our dataset, representing every class. 1) Helminthosporium
 Leaf Spot 2) Red Rot 3) Cercospora Leaf Spot 4) Rust 5) Yellow Leaf Disease 6) Healthy.
 ](data/dataset_sample.png)
+_Fig 1. Example of leaf images from our dataset, representing every class. 1) Helminthosporium
+Leaf Spot 2) Red Rot 3) Cercospora Leaf Spot 4) Rust 5) Yellow Leaf Disease 6) Healthy._
 
 
 
@@ -40,14 +42,17 @@ from pre-trained weights on the ImageNet dataset. Here also, we note that weight
 training the fully connected part only were used as the starting point for the training of the entire
 network. Optimizer used - Stochastic Gradient Descent with Restarts was used in all the cases
 
-![ Example image of a leaf from our test dataset suffering from Helminthosporium Leaf Spot](path/to/folder/image.jpg)
 
 # Results
 Achieved an acuuracy of 93.0 % on test test. All networks were trained on 80:20 Split.
 Networks ran for a total of 15 epochs when training only the fully connected layers and 25 epochs when training all the layers
 
 ![Fig.2](data/leaf.png)
+ _Fig 2. Example image of a leaf from our test dataset suffering from Helminthosporium Leaf Spot_
+
+ 
 ![Visualization of activations in the initial layer of Resnet-50 architecture depicting that the model has efficiently learnt to activate against diseased spots on the example leaf. ](data/activations.png)
+_Fig 3.Visualization of activations in the initial layer of Resnet-50 architecture depicting that the model has efficiently learnt to activate against diseased spots on the example leaf._
 
 
 # How to Run
