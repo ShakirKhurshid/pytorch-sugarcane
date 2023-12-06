@@ -61,4 +61,4 @@ _Fig 3.Visualization of activations in the initial layer of Resnet-50 architectu
 
 To test the mode you can run the infer file by loading the saved model and testing on the sample data.
 
-`code run`
+`run infer.py`
