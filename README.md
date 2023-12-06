@@ -2,18 +2,8 @@
 A deep learning approach to Identify crop disease, (an image classification task).
 
 # Introduction
-Crop diseases recognition is one of the considerable concerns faced by the agricultural industry.
-However, recent progress in visual computing with improved computational hardware has cleared
-the way for automated disease recognition. Results on publicly available datasets using
-Convolutional Neural Network (CNN) architectures have demonstrated its viability. To investigate
-how current state-of-the-art classification models would perform in uncontrolled conditions, as
-would be faced on-site, we acquired a dataset of five diseases of sugarcane plant taken from fields
-across different regions of Karnataka, India, captured by camera devices under different
-resolutions and lighting conditions. Models trained on our sugarcane dataset achieved top accuracy
-of 93.20% (on the test set) and 76.40% on images collected from different trusted online sources,
-demonstrating the robustness of this approach in identifying complex patterns and variations found
-in realistic scenarios. Taking everything into account, the approach of using CNNs on a
-considerably diverse dataset would pave the way for automated disease recognition systems.
+
+Crop disease recognition remains a significant challenge for the agricultural industry. However, advancements in visual computing, coupled with enhanced computational hardware, have paved the way for automated disease identification. Convolutional Neural Network (CNN) architectures, when applied to publicly available datasets, have showcased their effectiveness. To assess the performance of current state-of-the-art classification models in real-world, uncontrolled conditions encountered on-site, we curated a dataset featuring five sugarcane plant diseases. These images were sourced from fields across various regions of Karnataka, India, captured by camera devices with varying resolutions and lighting conditions. The models, trained on this diverse sugarcane dataset, achieved an impressive accuracy of 93.20% on the test set and 76.40% on images collected from different reputable online sources. This underscores the robustness of our approach in recognizing intricate patterns and variations present in practical scenarios. In summary, employing CNNs on a highly diverse dataset emerges as a promising strategy for the development of automated crop disease recognition systems.
 
 # Dataset
 
